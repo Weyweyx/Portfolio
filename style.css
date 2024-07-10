@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-/* Body styles */
+
 body {
     background-image: url("Images/mountain.jpeg");
     background-repeat: no-repeat;
@@ -13,10 +13,26 @@ body {
     background-size: cover;
 }
 
-/* Header styles */
+a {
+    text-decoration: none;
+    color: white
+}
+
 header {
     padding: 10px 0;
     text-align: center;
+}
+nav ul {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    list-style-type: none;
+    gap: 15px;
+    color: #fff;
+    margin-top: 20px;
+    font-size: medium;
+    font-family: "playwrite tz";
+
 }
 
 header h1 {
@@ -27,7 +43,6 @@ header h1 {
     
 }
 
-/* Container styles */
 .container {
     width: 80%;
     margin: auto;
@@ -35,18 +50,22 @@ header h1 {
     padding: 20px;
 }
 
-/* About section styles */
-#about {
-    font-family: "playwrite tz"; 
+
+#about { 
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
-
-#about h2 {
-    font-size: 2em;
-    margin-bottom: 10px;
+#aboutContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    
+}
+#aboutContainer img {
+    height: 300px;
+    
 }
 
 #about p {
@@ -54,20 +73,22 @@ header h1 {
     font-size: 1.1em;
     line-height: 1.8;
 }
+#project1 {
+    background-image: url('https://images.nationalgeographic.org/image/upload/v1638892272/EducationHub/photos/hoh-river-valley.jpg');
+}
 
-/* Projects section styles */
+#project2 {
+    background-image: none;
+}
+
 #projects {
-    font-family: "playwrite tz";
+    
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-#projects h2 {
-    font-size: 20px;
-    margin-bottom: 10px;
-}
 
 .project {
     background: #f9f9f98a;
@@ -105,19 +126,21 @@ header h1 {
     background-color: #555;
 }
 
-/* Skills section styles */
+
 #skills {
-    font-family: "playwrite tz";
+   
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-#skills h2 {
+h2 {
     font-size: 2em;
     margin-bottom: 10px;
+    font-family: "playwrite tz";
 }
+
 
 #skills ul {
     list-style-type: none;
@@ -128,8 +151,28 @@ header h1 {
     font-size: 1.1em;
     margin-bottom: 5px;
 }
+#contact {
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+#contact ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
 
-/* Footer styles */
+    
+}
+#contact li {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    font-size: x-large;
+    
+}
 footer {
     background-color: #333;
     color: #fff;

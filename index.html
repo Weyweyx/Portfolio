@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,30 +10,48 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playwrite+TZ:wght@100..400&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <h1>Kevin Wolf</h1>
+        <nav>
+            <ul>
+                <li> <a href="#about"> About</a></li>
+                <li> <a href="#projects"> Projects</a></li>
+                <li> <a href="#skills"> Skills</a></li>
+                <li> <a href="#contact"> Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    
+
     <div class="container">
         <section id="about">
             <h2>About Me</h2>
-            <p>Hello! I'm Kevin Wolf, a passionate web developer with a knack for crafting responsive and user-friendly websites. With experience in front-end and back-end development, I specialize in turning ideas into reality using the latest technologies like HTML, CSS, and JavaScript. I thrive on solving complex problems and am always eager to learn new things. Let's build something amazing together!</p>
+            <div id="aboutContainer"> 
+                <p>Hello! I'm Kevin Wolf, a passionate web developer with a knack for crafting responsive and user-friendly
+                websites. With experience in front-end and back-end development, I specialize in turning ideas into
+                reality using the latest technologies like HTML, CSS, and JavaScript. I thrive on solving complex
+                problems and am always eager to learn new things. Let's build something amazing together!</p>
+            <img src="https://i.natgeofe.com/n/4cebbf38-5df4-4ed0-864a-4ebeb64d33a4/NationalGeographic_1468962_3x4.jpg">
+            </div>
         </section>
 
         <section id="projects">
             <h2>Projects</h2>
-            <div class="project">
+            <a href="#">
+            <div id="project1" class="project">
                 <h3>Project 1</h3>
                 <p>Description of Project 1.</p>
-                <a href="#">View Project</a>
+                
             </div>
-            <div class="project">
+            </a>
+            <a href="#">
+            <div id="project2" class="project">
                 <h3>Project 2</h3>
                 <p>Description of Project 2.</p>
-                <a href="#">View Project</a>
+                
             </div>
-            <!-- Add more projects as needed -->
+            </a>
         </section>
 
         <section id="skills">
@@ -41,13 +60,23 @@
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
-                <!-- Add more skills -->
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <ul>
+                <li ><a>Github</a></li>
+                <li ><a>Email</a></li>
+                <li ><a>LinkedIn</a></li>
+                <li ><a>Phone</a></li>
             </ul>
         </section>
     </div>
+
 
     <footer>
         <p>&copy; 2024 Kevin Wolf</p>
     </footer>
 </body>
+
 </html>
