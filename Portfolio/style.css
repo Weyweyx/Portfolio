@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    background-image: url("Images/mountain.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Header styles */
+header {
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-family: "playwrite tz";
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: rgb(252, 252, 252);
+    
+}
+
+/* Container styles */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+/* About section styles */
+#about {
+    font-family: "playwrite tz"; 
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#about h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#about p {
+    font-family: 'Courier New', sans-serif;
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+
+/* Projects section styles */
+#projects {
+    font-family: "playwrite tz";
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#projects h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.project {
+    background: #f9f9f98a;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.project h3 {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.project p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.project a {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.project a:hover {
+    background-color: #555;
+}
+
+/* Skills section styles */
+#skills {
+    font-family: "playwrite tz";
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#skills h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills li {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 0.9em;
+}
