@@ -6,7 +6,7 @@
 
 
 body {
-    background-image: url("Images/mountain.jpeg");
+    background-image: url("https://www.ipadwallpaper.org/wp-content/uploads/2021/01/Dark-black-ipados-ipad-wallpaper.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -39,7 +39,8 @@ header h1 {
     font-family: "playwrite tz";
     font-size: 50px;
     margin-bottom: 10px;
-    color: rgb(252, 252, 252);
+    margin-top: 15px;
+    color: rgb(255, 255, 255);
     
 }
 
@@ -56,15 +57,22 @@ header h1 {
     margin-bottom: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background: #f9f9f98a;
 }
 #aboutContainer {
     display: flex;
     justify-content: space-between;
     align-items: start;
     
+    
 }
 #aboutContainer img {
-    height: 300px;
+    height: 225px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 0px;
+    border-radius: 5px;
+    
+
     
 }
 
@@ -74,15 +82,18 @@ header h1 {
     line-height: 1.8;
 }
 #project1 {
-    background-image: url('https://images.nationalgeographic.org/image/upload/v1638892272/EducationHub/photos/hoh-river-valley.jpg');
+    background-image: url(https://cdn.wccftech.com/wp-content/uploads/2019/06/black-2.png);
+    background-position: center;
+    
 }
 
 #project2 {
-    background-image: none;
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20230525/pngtree-black-abstract-abstract-voluminous-wavy-pattern-background-design-image_2628414.jpg);
+    background-position: center;
 }
 
 #projects {
-    
+    background: #f9f9f98a;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
@@ -133,6 +144,7 @@ header h1 {
     margin-bottom: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background: #f9f9f98a;
 }
 
 h2 {
@@ -148,6 +160,7 @@ h2 {
 }
 
 #skills li {
+    font-family: 'Courier New', Courier, monospace;
     font-size: 1.1em;
     margin-bottom: 5px;
 }
@@ -156,6 +169,7 @@ h2 {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background: #f9f9f98a;
 }
 #contact ul {
     list-style-type: none;
@@ -168,9 +182,10 @@ h2 {
 }
 #contact li {
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(0, 0, 0, 0.316);
     border-radius: 5px;
     font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
     
 }
 footer {
