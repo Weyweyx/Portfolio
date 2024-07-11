@@ -10,7 +10,7 @@ This website serves as a platform to demonstrate my skills, and projects related
 
 If you want to run this website locally, follow these steps:
 
-Clone the repository: git clone https://github.com/yourusername/portfolio.git
+Clone the repository: git clone https://github.com/Weyweyx/Portfolio.git
 Navigate into the directory: cd Portfolio
 Open index.html in your browser.
 
